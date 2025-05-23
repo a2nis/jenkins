@@ -22,6 +22,7 @@ pipeline {
                 echo 'Deliver....'
                 sh '''
                 echo "doing delivery stuff.."
+                echo "doing delivery TEST.."
                 '''
             }
         }
